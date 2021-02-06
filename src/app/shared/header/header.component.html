@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row class="row">
+        <div class="col-6">
+            <span>Angular 8 Demo App - Logged in as: {{ this.currentUser.username }} </span>
+        </div>
+        <div class="col-2 offset-4 text-right pt-2">
+            <mat-icon class="cursor-pointer" title="Logout" (click)="logout()">logout</mat-icon>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
